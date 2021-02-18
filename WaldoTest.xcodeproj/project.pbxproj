@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075F8A05098FE6210E8F1E73 /* Pods_WaldoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC27DC26AB288192311DD51 /* Pods_WaldoTest.framework */; };
+		4E76C2E825DEC52D004DFDE5 /* WaldoTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2E725DEC52D004DFDE5 /* WaldoTestApp.swift */; };
+		4E76C2EA25DEC52D004DFDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2E925DEC52D004DFDE5 /* ContentView.swift */; };
+		4E76C2EC25DEC52E004DFDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */; };
+		4E76C2EF25DEC52E004DFDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76C2EE25DEC52E004DFDE5 /* Preview Assets.xcassets */; };
+		4E76C2FF25DEC5A4004DFDE5 /* WaldoTestAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */; };
+		4E76C30B25DEE017004DFDE5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C30A25DEE017004DFDE5 /* LoginView.swift */; };
+		4E76C31425DEFE53004DFDE5 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */; };
+		4E76C31725DF00F8004DFDE5 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AC27DC26AB288192311DD51 /* Pods_WaldoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaldoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E76C2E425DEC52C004DFDE5 /* WaldoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaldoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E76C2E725DEC52D004DFDE5 /* WaldoTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaldoTestApp.swift; sourceTree = "<group>"; };
+		4E76C2E925DEC52D004DFDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E76C2EE25DEC52E004DFDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E76C2F025DEC52E004DFDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaldoTestAppState.swift; sourceTree = "<group>"; };
+		4E76C30A25DEE017004DFDE5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
+		8C8BE844496525C870DF8519 /* Pods-WaldoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaldoTest.debug.xcconfig"; path = "Target Support Files/Pods-WaldoTest/Pods-WaldoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B640B5078C43CB6A1BF7114E /* Pods-WaldoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaldoTest.release.xcconfig"; path = "Target Support Files/Pods-WaldoTest/Pods-WaldoTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E76C2E125DEC52C004DFDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075F8A05098FE6210E8F1E73 /* Pods_WaldoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199135CF1B7E8328706B8BFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BE844496525C870DF8519 /* Pods-WaldoTest.debug.xcconfig */,
+				B640B5078C43CB6A1BF7114E /* Pods-WaldoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E76C2DB25DEC52C004DFDE5 = {
+			isa = PBXGroup;
+			children = (
+				4E76C2E625DEC52D004DFDE5 /* WaldoTest */,
+				4E76C2E525DEC52C004DFDE5 /* Products */,
+				199135CF1B7E8328706B8BFD /* Pods */,
+				F6CE4CDDB738F317E71FC6F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E76C2E525DEC52C004DFDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C2E425DEC52C004DFDE5 /* WaldoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E76C2E625DEC52D004DFDE5 /* WaldoTest */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C31225DEFE44004DFDE5 /* API Model */,
+				4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */,
+				4E76C2E725DEC52D004DFDE5 /* WaldoTestApp.swift */,
+				4E76C2E925DEC52D004DFDE5 /* ContentView.swift */,
+				4E76C30A25DEE017004DFDE5 /* LoginView.swift */,
+				4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */,
+				4E76C2F025DEC52E004DFDE5 /* Info.plist */,
+				4E76C2ED25DEC52E004DFDE5 /* Preview Content */,
+			);
+			path = WaldoTest;
+			sourceTree = "<group>";
+		};
+		4E76C2ED25DEC52E004DFDE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C2EE25DEC52E004DFDE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E76C31225DEFE44004DFDE5 /* API Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */,
+				4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */,
+			);
+			path = "API Model";
+			sourceTree = "<group>";
+		};
+		F6CE4CDDB738F317E71FC6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC27DC26AB288192311DD51 /* Pods_WaldoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E76C2E325DEC52C004DFDE5 /* WaldoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E76C2F325DEC52E004DFDE5 /* Build configuration list for PBXNativeTarget "WaldoTest" */;
+			buildPhases = (
+				A291D00BCDCDFA0A2EE2A150 /* [CP] Check Pods Manifest.lock */,
+				4E76C2E025DEC52C004DFDE5 /* Sources */,
+				4E76C2E125DEC52C004DFDE5 /* Frameworks */,
+				4E76C2E225DEC52C004DFDE5 /* Resources */,
+				1527BA9569AB04FCA79EA8FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaldoTest;
+			productName = WaldoTest;
+			productReference = 4E76C2E425DEC52C004DFDE5 /* WaldoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E76C2DC25DEC52C004DFDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4E76C2E325DEC52C004DFDE5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4E76C2DF25DEC52C004DFDE5 /* Build configuration list for PBXProject "WaldoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E76C2DB25DEC52C004DFDE5;
+			productRefGroup = 4E76C2E525DEC52C004DFDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E76C2E325DEC52C004DFDE5 /* WaldoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E76C2E225DEC52C004DFDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E76C2EF25DEC52E004DFDE5 /* Preview Assets.xcassets in Resources */,
+				4E76C2EC25DEC52E004DFDE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1527BA9569AB04FCA79EA8FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaldoTest/Pods-WaldoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaldoTest/Pods-WaldoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaldoTest/Pods-WaldoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A291D00BCDCDFA0A2EE2A150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaldoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E76C2E025DEC52C004DFDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E76C31725DF00F8004DFDE5 /* AlbumResponse.swift in Sources */,
+				4E76C31425DEFE53004DFDE5 /* AuthResponse.swift in Sources */,
+				4E76C2EA25DEC52D004DFDE5 /* ContentView.swift in Sources */,
+				4E76C2E825DEC52D004DFDE5 /* WaldoTestApp.swift in Sources */,
+				4E76C30B25DEE017004DFDE5 /* LoginView.swift in Sources */,
+				4E76C2FF25DEC5A4004DFDE5 /* WaldoTestAppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E76C2F125DEC52E004DFDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E76C2F225DEC52E004DFDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E76C2F425DEC52E004DFDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8BE844496525C870DF8519 /* Pods-WaldoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/Preview Content\"";
+				DEVELOPMENT_TEAM = U6Z9FLMCQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaldoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.baida.test.WaldoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E76C2F525DEC52E004DFDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B640B5078C43CB6A1BF7114E /* Pods-WaldoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/Preview Content\"";
+				DEVELOPMENT_TEAM = U6Z9FLMCQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaldoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.baida.test.WaldoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E76C2DF25DEC52C004DFDE5 /* Build configuration list for PBXProject "WaldoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E76C2F125DEC52E004DFDE5 /* Debug */,
+				4E76C2F225DEC52E004DFDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E76C2F325DEC52E004DFDE5 /* Build configuration list for PBXNativeTarget "WaldoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E76C2F425DEC52E004DFDE5 /* Debug */,
+				4E76C2F525DEC52E004DFDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E76C2DC25DEC52C004DFDE5 /* Project object */;
+}

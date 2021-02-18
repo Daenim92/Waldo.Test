@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.1)
+  - AsyncImage (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AsyncImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AsyncImage
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AsyncImage: 32d6c212f08e8cf1a54d31516697674c9310da22
+
+PODFILE CHECKSUM: 36a2277dbb652a1b96c62df7e7714ba7e1030800
+
+COCOAPODS: 1.8.4
