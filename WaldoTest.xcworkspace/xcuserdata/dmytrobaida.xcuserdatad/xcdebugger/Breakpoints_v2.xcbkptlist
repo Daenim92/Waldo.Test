@@ -14,58 +14,10 @@
             filePath = "WaldoTest/WaldoTestAppState.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "tryLogin()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EAE42E17-F6C7-46B6-AAA6-95226F145890"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WaldoTest/WaldoTestAppState.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "tryLogin()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EAE42E17-F6C7-46B6-AAA6-95226F145890 - f0f108d01c3ebd25"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WaldoTest.AppState.tryLogin() -&gt; ()"
-                  moduleName = "WaldoTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dmytrobaida/Desktop/WaldoTest/WaldoTest/WaldoTestAppState.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "1100">
-               </Location>
-               <Location
-                  uuid = "EAE42E17-F6C7-46B6-AAA6-95226F145890 - c7c8aa20c6792303"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;Swift.String, Alamofire.AFError&gt;) -&gt; () in WaldoTest.AppState.tryLogin() -&gt; ()"
-                  moduleName = "WaldoTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dmytrobaida/Desktop/WaldoTest/WaldoTest/WaldoTestAppState.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,8 +30,8 @@
             filePath = "WaldoTest/WaldoTestAppState.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "didScrollToEnd()"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +46,8 @@
             filePath = "WaldoTest/WaldoTestAppState.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "didScrollToEnd()"
             landmarkType = "7">
          </BreakpointContent>

@@ -6,10 +6,12 @@ target 'WaldoTest' do
   use_frameworks!
 
   # Pods for WaldoTest
+  pod 'ReSwift'
+  pod 'ReSwiftThunk'
   pod 'Alamofire'
   # pod 'TinyGraphQL'
   # pod 'Chester'
-  # pod 'GraphQLicious'
+  pod 'GraphQLicious'
   
   pod 'AsyncImage'
 

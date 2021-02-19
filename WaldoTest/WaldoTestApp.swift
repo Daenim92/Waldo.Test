@@ -6,21 +6,33 @@
 //
 
 import SwiftUI
+import ReSwift
+import ReSwiftThunk
 
 @main
 struct WaldoTestApp: App {
     
-    @StateObject var state = AppState()
+    @StateObject var store: StoreWrapper = {
+        
+        let initState = AppState()
+        let store = Store(reducer: appReducer, state: initState,
+                          middleware: [createThunkMiddleware()])
+        
+        let wrapper = StoreWrapper(store)
+        
+        return wrapper
+    }()
+    
     
     var body: some Scene {
         WindowGroup {
             
-            if let _ = state.jwtToken {
+            if let _ = store.state.jwtToken {
                 ContentView()
-                    .environmentObject(state)
+                    .environmentObject(store)
             } else {
                 LoginView()
-                    .environmentObject(state)
+                    .environmentObject(store)
             }
 
         }

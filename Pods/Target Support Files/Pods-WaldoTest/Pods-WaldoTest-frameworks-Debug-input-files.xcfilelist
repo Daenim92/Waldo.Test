@@ -1,3 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-WaldoTest/Pods-WaldoTest-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/AsyncImage/AsyncImage.framework
+${BUILT_PRODUCTS_DIR}/GraphQLicious/GraphQLicious.framework
+${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework
+${BUILT_PRODUCTS_DIR}/ReSwiftThunk/ReSwiftThunk.framework

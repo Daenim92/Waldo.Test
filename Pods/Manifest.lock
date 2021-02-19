@@ -1,20 +1,36 @@
 PODS:
   - Alamofire (5.4.1)
   - AsyncImage (0.1.1)
+  - GraphQLicious (0.8.2)
+  - ReSwift (6.0.0)
+  - ReSwiftThunk (2.0.1):
+    - ReSwift (~> 6.0)
+    - ReSwiftThunk/Core (= 2.0.1)
+  - ReSwiftThunk/Core (2.0.1):
+    - ReSwift (~> 6.0)
 
 DEPENDENCIES:
   - Alamofire
   - AsyncImage
+  - GraphQLicious
+  - ReSwift
+  - ReSwiftThunk
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AsyncImage
+    - GraphQLicious
+    - ReSwift
+    - ReSwiftThunk
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   AsyncImage: 32d6c212f08e8cf1a54d31516697674c9310da22
+  GraphQLicious: c8468f1dcbbdc74b33fd184db1642f5ed2b0a86a
+  ReSwift: 14e6f9409fe6bdc635e588208296a01f43b959c9
+  ReSwiftThunk: 7ca5145764be6f30b62db88a52d170133954629e
 
-PODFILE CHECKSUM: 36a2277dbb652a1b96c62df7e7714ba7e1030800
+PODFILE CHECKSUM: 2f4356a1c5282c37981480bf8845c8133bc42521
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1

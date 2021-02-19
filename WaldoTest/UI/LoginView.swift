@@ -9,8 +9,11 @@ import SwiftUI
 
 struct LoginView: View {
     
-    @EnvironmentObject var state: AppState
+    @EnvironmentObject var store: StoreWrapper
     
+    @State var email = ""
+    @State var password = ""
+
     var body: some View {
         VStack {
             Spacer()
@@ -18,18 +21,26 @@ struct LoginView: View {
             VStack(alignment: .leading) {
                 Text("Email")
                 
-                TextField("Email", text: $state.email)
+                TextField("Email", text: Binding<String>(get: {
+                    store.state.email
+                }, set: {
+                    store.dispatch(UserAction.setEmail($0))
+                }))
                 
                 Text("Password")
                 
-                TextField("Password", text: $state.password)
+                TextField("Password", text: Binding(get: {
+                    store.state.password
+                }, set: {
+                    store.dispatch(UserAction.setPassword($0))
+                }))
                 
             }
             
             Spacer()
             
             Button("Login") {
-                state.tryLogin()
+                store.dispatch(APIAction.tryLogin())
             }
             
             Spacer()
@@ -44,6 +55,5 @@ struct LoginView: View {
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
-            .environmentObject(AppState())
     }
 }

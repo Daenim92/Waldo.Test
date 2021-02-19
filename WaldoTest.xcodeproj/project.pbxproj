@@ -12,10 +12,15 @@
 		4E76C2EA25DEC52D004DFDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2E925DEC52D004DFDE5 /* ContentView.swift */; };
 		4E76C2EC25DEC52E004DFDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */; };
 		4E76C2EF25DEC52E004DFDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76C2EE25DEC52E004DFDE5 /* Preview Assets.xcassets */; };
-		4E76C2FF25DEC5A4004DFDE5 /* WaldoTestAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */; };
+		4E76C2FF25DEC5A4004DFDE5 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C2FE25DEC5A4004DFDE5 /* State.swift */; };
 		4E76C30B25DEE017004DFDE5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C30A25DEE017004DFDE5 /* LoginView.swift */; };
 		4E76C31425DEFE53004DFDE5 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */; };
 		4E76C31725DF00F8004DFDE5 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */; };
+		4E7DBE6525DFC65B00FA22BC /* StateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DBE6425DFC65B00FA22BC /* StateStore.swift */; };
+		4E7DBE7C25DFCE5C00FA22BC /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DBE7B25DFCE5C00FA22BC /* Actions.swift */; };
+		4E7DBE7F25DFCF5000FA22BC /* ActionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DBE7E25DFCF5000FA22BC /* ActionReducer.swift */; };
+		4E7DBE9625E0043800FA22BC /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DBE9525E0043800FA22BC /* Album.swift */; };
+		4E7DBE9A25E005E800FA22BC /* APIActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DBE9925E005E800FA22BC /* APIActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,15 @@
 		4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E76C2EE25DEC52E004DFDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E76C2F025DEC52E004DFDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaldoTestAppState.swift; sourceTree = "<group>"; };
+		4E76C2FE25DEC5A4004DFDE5 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		4E76C30A25DEE017004DFDE5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
+		4E7DBE6425DFC65B00FA22BC /* StateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStore.swift; sourceTree = "<group>"; };
+		4E7DBE7B25DFCE5C00FA22BC /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		4E7DBE7E25DFCF5000FA22BC /* ActionReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionReducer.swift; sourceTree = "<group>"; };
+		4E7DBE9525E0043800FA22BC /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		4E7DBE9925E005E800FA22BC /* APIActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIActions.swift; sourceTree = "<group>"; };
 		8C8BE844496525C870DF8519 /* Pods-WaldoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaldoTest.debug.xcconfig"; path = "Target Support Files/Pods-WaldoTest/Pods-WaldoTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B640B5078C43CB6A1BF7114E /* Pods-WaldoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaldoTest.release.xcconfig"; path = "Target Support Files/Pods-WaldoTest/Pods-WaldoTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,14 +86,11 @@
 		4E76C2E625DEC52D004DFDE5 /* WaldoTest */ = {
 			isa = PBXGroup;
 			children = (
-				4E76C31225DEFE44004DFDE5 /* API Model */,
-				4E76C2FE25DEC5A4004DFDE5 /* WaldoTestAppState.swift */,
 				4E76C2E725DEC52D004DFDE5 /* WaldoTestApp.swift */,
-				4E76C2E925DEC52D004DFDE5 /* ContentView.swift */,
-				4E76C30A25DEE017004DFDE5 /* LoginView.swift */,
-				4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */,
 				4E76C2F025DEC52E004DFDE5 /* Info.plist */,
-				4E76C2ED25DEC52E004DFDE5 /* Preview Content */,
+				4E7DBE6125DFC52000FA22BC /* AppState */,
+				4E76C31225DEFE44004DFDE5 /* API */,
+				4E7DBE6225DFC53100FA22BC /* UI */,
 			);
 			path = WaldoTest;
 			sourceTree = "<group>";
@@ -96,13 +103,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4E76C31225DEFE44004DFDE5 /* API Model */ = {
+		4E76C31225DEFE44004DFDE5 /* API */ = {
 			isa = PBXGroup;
 			children = (
 				4E76C31325DEFE53004DFDE5 /* AuthResponse.swift */,
 				4E76C31625DF00F8004DFDE5 /* AlbumResponse.swift */,
+				4E7DBE9525E0043800FA22BC /* Album.swift */,
 			);
-			path = "API Model";
+			path = API;
+			sourceTree = "<group>";
+		};
+		4E7DBE6125DFC52000FA22BC /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C2FE25DEC5A4004DFDE5 /* State.swift */,
+				4E7DBE6425DFC65B00FA22BC /* StateStore.swift */,
+				4E7DBE7B25DFCE5C00FA22BC /* Actions.swift */,
+				4E7DBE9925E005E800FA22BC /* APIActions.swift */,
+				4E7DBE7E25DFCF5000FA22BC /* ActionReducer.swift */,
+			);
+			path = AppState;
+			sourceTree = "<group>";
+		};
+		4E7DBE6225DFC53100FA22BC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4E76C2E925DEC52D004DFDE5 /* ContentView.swift */,
+				4E76C30A25DEE017004DFDE5 /* LoginView.swift */,
+				4E76C2EB25DEC52E004DFDE5 /* Assets.xcassets */,
+				4E76C2ED25DEC52E004DFDE5 /* Preview Content */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		F6CE4CDDB738F317E71FC6F5 /* Frameworks */ = {
@@ -226,12 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7DBE7F25DFCF5000FA22BC /* ActionReducer.swift in Sources */,
 				4E76C31725DF00F8004DFDE5 /* AlbumResponse.swift in Sources */,
+				4E7DBE9A25E005E800FA22BC /* APIActions.swift in Sources */,
+				4E7DBE7C25DFCE5C00FA22BC /* Actions.swift in Sources */,
 				4E76C31425DEFE53004DFDE5 /* AuthResponse.swift in Sources */,
+				4E7DBE6525DFC65B00FA22BC /* StateStore.swift in Sources */,
 				4E76C2EA25DEC52D004DFDE5 /* ContentView.swift in Sources */,
 				4E76C2E825DEC52D004DFDE5 /* WaldoTestApp.swift in Sources */,
+				4E7DBE9625E0043800FA22BC /* Album.swift in Sources */,
 				4E76C30B25DEE017004DFDE5 /* LoginView.swift in Sources */,
-				4E76C2FF25DEC5A4004DFDE5 /* WaldoTestAppState.swift in Sources */,
+				4E76C2FF25DEC5A4004DFDE5 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/UI/Preview Content\"";
 				DEVELOPMENT_TEAM = U6Z9FLMCQ8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WaldoTest/Info.plist;
@@ -384,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WaldoTest/UI/Preview Content\"";
 				DEVELOPMENT_TEAM = U6Z9FLMCQ8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WaldoTest/Info.plist;
